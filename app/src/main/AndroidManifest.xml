@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.documentsui.filemanager"
+    package="com.tanuki.gh"
     android:versionName="1.0" >
 
     <application

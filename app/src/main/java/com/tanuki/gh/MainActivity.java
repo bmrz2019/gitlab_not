@@ -1,4 +1,4 @@
-package com.documentsui.filemanager;
+package com.tanuki.gh;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,9 +16,9 @@ public class MainActivity extends Activity {
 
         intent.setAction(Intent.ACTION_VIEW);
         intent.setType("*/*");
-        intent.setClassName("com.android.documentsui", "com.android.documentsui.ViewDownloadsActivity");
-//        intent.setClassName("com.android.documentsui", "com.android.documentsui.files.FilesActivity");
-//        intent.setClassName("com.android.documentsui", "com.android.documentsui.ScopedAccessActivity");
+        intent.setClassName("com.commit451.gitlab", "com.commit451.gitlab.activity.LaunchActivity");
+//        intent.setClassName("com.android.tanuki", "com.android.tanuki.files.FilesActivity");
+//        intent.setClassName("com.android.tanuki", "com.android.tanuki.ScopedAccessActivity");
         startActivity(intent);
 
         if (Build.VERSION.SDK_INT >= 21) {

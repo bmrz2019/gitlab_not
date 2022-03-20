@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.documentsui.filemanager"
+        minSdkVersion 26
+        targetSdkVersion 26
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+}

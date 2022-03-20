@@ -15,5 +15,5 @@
 -->
 
 <resources>
-    <color name="app_icon_background">#ff4688f2</color>
+    <color name="app_icon_background">#ffffffff</color>
 </resources>

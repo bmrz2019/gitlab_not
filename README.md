@@ -1,4 +1,4 @@
-# Rename app to Gitl.b
+# App to launch gitlab activity
 
 Download the apk from releases.
 
